@@ -4,4 +4,4 @@ Het bestand 'differentiaalvergelijkingen.pdf' bevat een overzicht over gewone di
 Het bestand 'stelsels_differentiaalvergelijkingen.pdf' bevat een overzicht over stelsels differentiaalvergelijkingen.
 
 
-Het bestand 'integralen_krommen_oppervlakken' bevat een overzicht over integralen (H5 & H6).
+Het bestand 'integralen.pdf' bevat een overzicht over integralen (H5 & H6).
