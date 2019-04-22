@@ -1,0 +1,167 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{colortbl}
+\usepackage{tabu}
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\geometry{margin=0.5in}
+\everymath{\displaystyle}
+\usepackage{lscape}
+
+\author{Ignace Bossuyt}
+\title{Handleiding differentiaalvergelijkingen}
+
+% -aux-directory=build
+
+
+\begin{document}
+
+Bemerk dat er vier verschillende concepten zijn:
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c||c|} 
+			\hline
+integraal over kromme & lijnintegraal \\ \hline
+integraal over oppervlak & oppervlakintegraal \\ \hline
+	\end{tabu}}
+\end{center}
+
+Het grootste verschil zit feitelijk hier: in het ene geval inegreren we een scalaire functie. In het andere geval integreren
+we in feite over een vectorveld.
+
+\begin{enumerate}
+\item kijk bijvoorbeeld naar de totale oppervlakte van een muurtje met gegeven hoogte of beschou we gemiddelde tem-
+peratuur van een vlakke of gebogen plaat of het massacentrum van een voorwerp
+\item we hebben een vectorveld ter beschikking. We beschouwen bijvoorbeeld de out
+ow van materie doorheen een
+kromme (in 2D) of doorheen een oppervlak. Het vectorveld zelf kan aan leuke eigenschappen voldoen zoals conser-
+vativiteit.
+\end{enumerate}
+
+\section{Integraal over/langs kromme en integraal over oppervlak}
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|c|} 
+			\hline
+\multicolumn{3}{|c|}{integraal over/langs kromme} \\ \hline
+parametrisatie & $\vec{\gamma}(t)$ & $t \in [a,b]$ \\ \hline
+lengte v/e kromme &\multicolumn{2}{c|}{$l(C) = \int_a^b ||\gamma'(t)|| dt$} \\ \hline
+natuurlijke parametrisatie & $r(x) = \vec{\gamma}(t(s))$ & $s \in [0,1] $ \\ \hline
+\cellcolor{yellow} integraal over/langs een kromme &\multicolumn{2}{c|}{$M(C) = \int_a^ f[\vec{\gamma}(t)] ||\vec{\gamma}'(t)|| dt$} \\ \hline
+	& \multicolumn{2}{c|}{toepassing: berekening massacentrum} \\ \hline
+	
+	\end{tabu}}
+\end{center}
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|c|} 
+			\hline
+			\multicolumn{3}{|c|}{integraal over/langs oppervlak} \\ \hline
+			parametrisatie & $\vec{\Sigma}(u,v)$ & $(u,v) \in D \in  \mathbb{R}^2$ \\ \hline
+			oppervlakte v/e oppervlak &\multicolumn{2}{c|}{$A(S) = \iint_D ||\vec{n}(u,v)|| dudv$} \\ \hline
+			\cellcolor{yellow} integraal over/langs een oppervlak &\multicolumn{2}{c|}{$M(S) = \iint_D f[ \vec{\Sigma}(u,v)  ] ||\vec{n}(u,v)|| dudv$}  \\ \hline
+		
+			& \multicolumn{2}{|c|}{toepassing: berekening massacentrum} \\ \hline
+	\end{tabu}}
+\end{center}
+
+\section{Vectoranalyse: lijintegraal en oppervlakintegraal}
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+\multicolumn{2}{|c|}{lijnintegraal} \\ \hline
+kromme met parametrisatie $\vec{\gamma}(t)$ & $t \in [a,b]$ \\ \hline
+\cellcolor{yellow} lijnintegraal in het vectorveld $\vec{F}$ & $\int_a^b \vec{F}(\vec{\gamma}(t)).\vec{\gamma}'(t)dt$ \\ \hline
+	\end{tabu}}
+\end{center}
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+			\multicolumn{2}{|c|}{oppervlakintegraal} \\ \hline
+			oppervlak met parametrisatie $\vec{\Sigma}(u,v)$ & $(u,v) \in D \in \mathbb{R}^2 $ \\ \hline
+			\cellcolor{yellow} oppervlakintegraal in het vectorveld $\vec{F}$ & $\iint_D \vec{F}(\vec{\Sigma}(u,v)).\vec{n}(u,v)dudv$ \\ \hline
+	\end{tabu}}
+\end{center}
+
+
+\newpage
+\subsection{Vectoranalyse: enkele leuke stellingen en gelijkheden}
+
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+rotor van een vectorveld $\vec{F}$ & $\vec{\nabla} \times \vec{F}$ \\ \hline
+
+divergentie van een vectorveld $\vec{F}$ & $\vec{\nabla}.\vec{F}$ \\ \hline \hline
+
+gradi\"ent van een scalaire functie $f$ & $\vec{\nabla}f$ \\ \hline
+
+Laplaciaan van een scalaire functie $f$ & $\Delta f = \vec{\nabla}^2 f = \vec{\nabla}.\vec{\nabla}f$ \\ \hline
+	\end{tabu}}
+\end{center}
+
+
+Voor een \textit{conservatief vectorveld} gelden volgende eigenschappen
+\begin{itemize}
+	\item heeft potentiaalfunctie $f$
+	\item is irrotationeel, namelijk $\vec{\nabla} \times \vec{F} = 0$
+\end{itemize}
+
+Enkele belangrijke stellingen
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+stelling & \\ \hline \hline
+
+Green & dubbele integraal over gebied $D$ \\
+(2D-vectorveld $\vec{F}$)	& vs. lijnintegraal over kromme $C$ \\ 
+ 	& $\iint_D \left[ \frac{\partial N}{\partial x } - \frac{\partial M}{\partial y} \right] dx dy = \int_C Mdx + Ndy $ \\ 
+	& toepassing: oppervlakteberekening \\ \hline
+
+Stokes & oppervlakintegraal over gebied $S$ \\
+	& vs. lijnintegraal over rand $C$ (kromme) \\ 
+(2D-vectorveld $\vec{F}$) & $\iint_S \vec{\nabla} \times \vec{F} = \int_c \vec{F}$ \\ \hline
+
+Gauss & integraal over 3D gebied \\
+	& integraal over zijn rand \\
+(3D-vectorveld $\vec{F}$) & $\iiint_d \vec{\nabla}. \vec{F} = \iint_S \vec{F}$ \\ 
+
+(2D-vectorveld $\vec{F}$) & $\iint_D \vec{\nabla} . \vec{F} =  \int_S f$ \\ 
+potentiaalfunctie $f$ & \\ \hline
+	
+	\end{tabu}}
+\end{center}
+
+
+Bij het opstellen van dit overzicht werd gebruik gemaakt van \cite{VandewalleStefan2017AIS}. Dank aan meneer Scheerlinck voor het ontdekken van fouten/typo's.
+
+\bibliography{bib}
+\bibliographystyle{plain}
+
+%\vspace*{\fill}
+%(gemaakt door Ignace Bossuyt)
+%\end{landscape}
+\end{document}

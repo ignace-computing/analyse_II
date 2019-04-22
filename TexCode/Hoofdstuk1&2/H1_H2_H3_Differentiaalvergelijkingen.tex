@@ -76,6 +76,38 @@ Het beginwaardeprobleem $y'=f(x,y)$ met $y(x_0)=y_0$ heeft een unieke oplossing.
 	\end{tabu}}
 \end{center}
 
+\newpage
+\section{Stelsels Lineaire Differentiaalvergelijkingen}
+\begin{enumerate}
+	\item Breng een stelsel differentiaalvergelijking naar de standaardvorm:
+	\begin{eqnarray}
+	Y'(t) = A(t) Y(t) + B(t)
+	\label{stelsel}
+	\end{eqnarray}
+	\item los het stelsel (\ref{stelsel}) op.
+\end{enumerate}
+
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c||c|c|} 
+			\hline
+			& algemeen geval& constante matrix $A = PJP^{-1}$ \\ \hline \hline
+			
+			homogeen stelsel   & bepaal fundamenteel stel oplossingen $Y_i(t)$ & $Y_i(t)=P_i e^{\lambda_i t}$ \\ \hline
+			$Y'(t)=A(t)Y(t)$ & \multicolumn{2}{c|}{matrixoplossing $Z(t) = \left[ \begin{matrix}	Y_1(t) \hdots Y_n(t) \end{matrix} \right]$ } \\ 
+			&  \multicolumn{2}{c|}{ $\det[Z(t)] \not = 0$:  stel linear onafhankelijk}   \\
+			& \multicolumn{2}{c|}{\cellcolor{yellow}  $Y_h(t) =  Z(t)C$ } \\ \hline \hline
+			
+			particuliere oplossing & "variatie van de constanten" & "exponenti\"ele van een matrix" \\ 
+			$Y'(t)=A(t)Y(t) + B(t)$  & $Y_p(t) =  Z(t)C(t)$  & $e^{At} = Z(t)Z(0)^{-1}$  \\ 
+			& \cellcolor{yellow} $Y(t) = Z(t) \left[ Z(0)^{-1} Y_0 + \int_{t_0}^t Z^{-1}(\xi)B(\xi) d\xi \right]$  & \cellcolor{green} $Y(t) = e^{At} \left[ Y_0 + \int_{t_0}^t e^{-A\xi}B(\xi) d\xi \right]$ \\
+			& nadeel: bereken inverse van matrix van functies & niet nodig om inverse berekenen \\ \hline
+	\end{tabu}}
+\end{center}
+
+\section*{}
 Bij het opstellen van dit overzicht werd gebruik gemaakt van~\cite{VandewalleStefan2017AIS}.
 
 \bibliography{bib}

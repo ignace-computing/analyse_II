@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.20)  22 APR 2019 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.20)  22 APR 2019 15:52
 entering extended mode
-**./H3_stelsels_differentiaalvergelijkingen.tex
-(H3_stelsels_differentiaalvergelijkingen.tex
+**./H1_H2_H3_Differentiaalvergelijkingen.tex
+(H1_H2_H3_Differentiaalvergelijkingen.tex
 LaTeX2e <2018-04-01> patch level 5
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\arti
@@ -259,27 +259,21 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks26
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\
-geometry.cfg"))
-("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\
-lscape.sty"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-("C:\Users\Ignace Bossuyt\Documents\KUL_jobstudent\analyse_2\overzicht\TexCode\
-Hoofdstuk3\build\H3_stelsels_differentiaalvergelijkingen.aux")
-\openout1 = `H3_stelsels_differentiaalvergelijkingen.aux'.
+geometry.cfg")) (H1_H2_H3_Differentiaalvergelijkingen.aux)
+\openout1 = `H1_H2_H3_Differentiaalvergelijkingen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\su
 pp-pdf.mkii"
@@ -388,58 +382,49 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\
 umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\
 umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1
 
-LaTeX Warning: Citation `VandewalleStefan2017AIS' on page 1 undefined on input 
-line 55.
-
-No file H3_stelsels_differentiaalvergelijkingen.bbl.
-[1
-
-{C:/Users/Ignace Bossuyt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("C:\Users\Ignace Bossuyt\Documents\KUL_jobstudent\analyse_2\overzicht\TexCode\
-Hoofdstuk3\build\H3_stelsels_differentiaalvergelijkingen.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+{C:/Users/Ignace Bossuyt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (H
+1_H2_H3_Differentiaalvergelijkingen.bbl) [2]
+(H1_H2_H3_Differentiaalvergelijkingen.aux) ) 
 Here is how much of TeX's memory you used:
- 3982 strings out of 492970
- 58041 string characters out of 3122595
- 132318 words of memory out of 3000000
- 7785 multiletter control sequences out of 15000+200000
- 6252 words of font info for 25 fonts, out of 3000000 for 9000
+ 3977 strings out of 492970
+ 57573 string characters out of 3122595
+ 136162 words of memory out of 3000000
+ 7782 multiletter control sequences out of 15000+200000
+ 6895 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,21n,43p,308b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ignace Bossuyt/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/I
-gnace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ignace Bossuyt/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr5.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignace Bossu
-yt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on H3_stelsels_differentiaalvergelijkingen.pdf (1 page, 107684 b
-ytes).
+ 41i,21n,43p,305b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Ignace Bossuyt/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ign
+ace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Ignace Bossuyt/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Us
+ers/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ignace Bossuyt
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on H1_H2_H3_Differentiaalvergelijkingen.pdf (2 pages, 129592 byt
+es).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
