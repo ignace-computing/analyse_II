@@ -1,0 +1,203 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{colortbl}
+\usepackage{tabu}
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\geometry{margin=0.5in}
+\everymath{\displaystyle}
+\usepackage{lscape}
+
+\author{Ignace Bossuyt}
+\title{Handleiding differentiaalvergelijkingen}
+\begin{document}
+
+\section{Reeksen van getallen (oneindige sommen)}
+
+\paragraph{Definities}
+\begin{center}
+\centering
+{\tabulinesep=1.5mm
+\begin{tabu}{|c|c|c|c|} 
+\hline
+\multicolumn{2}{|c|}{reeks van reeele getallen $(\{ u_n \}_{n \geq l},\{s_n \}_{n \geq l})$} \\ \hline
+termenrij & rij van partieelsommen \\ 
+$\{u_n\}_{n \geq l}$ & $\{s_n\}_{n \geq l}$ \\ \hline
+\multicolumn{2}{|c|}{korte notatie} \\
+\multicolumn{2}{|c|}{$s_n = \sum_{k=l}^{n} u_k$} \\  \hline
+\end{tabu}}
+\end{center}
+
+
+\begin{center}
+\centering
+{\tabulinesep=1.5mm
+\begin{tabu}{|c|c|c|c|} 
+\hline
+\multicolumn{2}{|c|}{Convergentie van een reeks: convergentie van haar rij van partieelsommen.} \\ \hline
+absoluut convergent & voorwaardelijk convergent \\
+$\sum_{n=1}^{\infty} |u_n|$ is convergent & convergentie maar GEEN absolute convergentie \\ \hline
+\end{tabu}}
+\end{center}
+
+\paragraph{Convergentietesten}
+
+\begin{center}
+\centering
+{\tabulinesep=1.5mm
+\begin{tabu}{|c|c|c|c|} 
+\hline
+\multicolumn{2}{|c|}{algemeen: criterium Cauchy} \\ \hline
+
+convergentie & $\forall \epsilon>0, \exists N, \text{zodat} \, \forall m \geq n \geq m$ \\  
+& $|u_n + u_{n+1} + \hdots + u_m| < \epsilon$ \\ 
+
+NODIGE voorwaarde & $lim_{n \to \infty} u_n = 0$ \\ \hline
+
+divergentie & $\exists \epsilon>0, \forall N, \text{zodat} \, \exists m \geq n \geq m$ \\ 
+& $|u_n + u_{n+1} + \hdots + u_m| \geq \epsilon$ \\ \hline
+\end{tabu}}
+\end{center}
+
+
+\begin{center}
+\centering
+{\tabulinesep=1.5mm
+\begin{tabu}{|c|c|c|c|c|c|c|} 
+\hline
+\multicolumn{7}{|c|}{\textbf{reeksen met enkel positieve termen} $\sum u_n$} \\ \hline
+
+& vergelijkingstest 
+	& integraaltest %$\sum_{n=1}^{\infty} u_n$ 
+	& d'Alembert (I) 
+	& d'Alembert (II) 
+	& Cauchy 
+	& Raabe \\ 
+
+& & & & verhoudingstest & &  \\ \hline
+
+CONV 
+	&  $\sum v_k$ conv
+	&  $\int_1^{\infty} f(x) dx$
+	&  $\limsup_{n\to \infty} \frac{u_{n+1}}{u_n} < 1 $
+	&  $\lim_{n\to \infty} \frac{u_{n+1}}{u_n} < 1 $
+	&  $\limsup_{n \to \infty} \sqrt[n]{u_n} < 1$
+	& $c>1$
+	\\ 
+	
+	& $u_n \leq v_n$ 
+	& conv
+	&
+	&
+	& 
+	& $c= \lim_{n \to \infty} n \left( 1 - \frac{u_{n+1}}{u_n} \right)$
+	\\ \hline
+
+DIV 
+	& $\sum v_k$ div
+	& anders 
+	& $\liminf_{n\to \infty} \frac{u_{n+1}}{u_n} > 1 $
+	& $\lim_{n\to \infty} \frac{u_{n+1}}{u_n} < 1 $
+	& $\limsup_{n \to \infty} \sqrt[n]{u_n} > 1$
+	& $c<1$
+	\\ 
+
+	& $v_n \leq u_n$ 
+	&
+	&
+	&
+	& & 
+	\\ \hline
+
+\multicolumn{7}{|c|}{\textbf{reeksen met enkel negatieve termen}, idem op tegengestelde na} \\  \hline
+
+\multicolumn{7}{|c|}{\textbf{wisselreeksen}, bv. Leibnizreeks} \\ \hline
+
+\end{tabu}}
+\end{center}
+
+\newpage
+\paragraph{Enkele memorabele reeksen}
+\begin{center}
+\centering
+{\tabulinesep=1.5mm
+\begin{tabu}{|c|c|c|c|} 
+\hline
+& & & \\ \hline
+reeks van Grandi 
+	& $1-1 + 1-1 + \hdots $ 
+	& divergent 
+	& rij van partieelsommen $1,0,1 \hdots $ heeft geen limiet \\ \hline
+	
+harmonische reeks 
+	& $\sum_{n=1}^{\infty} \frac{1}{n}$ 
+	& divergentie 
+	& voldoet niet aan Cauchy criterium \\ \hline
+	
+meetkundige reeks, \textit{reden} $q$ 
+	& $\sum_{n=0}^{\infty} q^k$ 
+	& $|q| < 1$: convergentie & $s_n = \frac{1}{1-q}$ \\ 
+	
+	& & $|q| >1$: divergentie 
+	& niet voldaan aan $\lim_{n\to \infty} u_n = 0$ \\ \hline
+	
+Dirichletreeks 
+	& $\sum_{n=1}^{\infty} n^{-p}$ 
+	& $p >1$: convergentie 
+	& $p=2$: $s_n = \frac{\pi^2}{6}$ \\ 
+	
+	& & & $p=4$: $s_n = \frac{\pi^4}{90}$ \\ 
+	
+	& & $p < 1$: divergentie & \\ \hline
+
+(Riemann-zetafunctie) 
+	& $\zeta(p) = \sum_{n=1}^{\infty} \frac{1}{n^p}$ 
+	& met $p \in \mathbb{C}$ 
+	& toepassing: getaltheorie  \\ \hline
+
+leuke reeks (1)
+	& $\sum_{n=2}^{\infty} \frac{1}{n^p \ln(n)}$ 
+	& $p \leq 1$: divergentie & \\
+	
+	& & $p>1$: convergentie & \\ \hline
+
+leuke reeks (2)
+	& $\sum_{n=2}^{\infty} \frac{1}{n \ln^p(n)}$ 
+	& $p \leq 1$: divergentie & \\
+	
+	& & $p>1$: convergentie & \\ \hline
+
+\cellcolor{yellow} Leibnizreeks 
+	& $\sum_{n=1}^{\infty} (-1)^{n+1} u_n$ 
+	& convergent 
+	& \\ 
+		
+	& $u_1 \geq \hdots u_1 \geq 0$  
+	& & \\
+	
+	& $\lim_{n \to \infty} u_n = 0$ 
+	& & \\ \hline
+
+harmonische wisselreeks 
+	& $\sum_{n=1}^{\infty} (-1)^{n+1} \frac{1}{n}$ 
+	& convergentie 
+	& $s_n = \ln(2)$ \\ \hline
+
+\end{tabu}}
+\end{center}
+
+Bij het opstellen van dit overzicht werd gebruik gemaakt van \cite{VandewalleStefan2017AIS}.
+
+\bibliography{bib}
+\bibliographystyle{plain}
+
+%\vspace*{\fill}
+%(gemaakt door Ignace Bossuyt)
+%\end{landscape}
+\end{document}
