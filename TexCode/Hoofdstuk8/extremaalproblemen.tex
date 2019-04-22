@@ -1,0 +1,87 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{colortbl}
+\usepackage{tabu}
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\geometry{margin=0.5in}
+\everymath{\displaystyle}
+\usepackage{lscape}
+
+
+\author{Ignace Bossuyt}
+\title{Handleiding differentiaalvergelijkingen}
+\begin{document}
+
+\section{Extremaalproblemen, zonder beperkingen}
+
+\section{Extremaalproblemen met gelijkheidsbeperkingen}
+
+\section{Extramaalproblemen met ongelijkheidsbeperkingen}
+
+\section{Variatierekening}
+
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+\multicolumn{2}{|c|}{Bepaal $y(x)$ zodat $I$ maximaal is} \\ \hline
+& $I = \int_a^bF(x,y(x),y'(x),...)dx$ \\ \hline
+
+Euler-Lagrange differentiaalvergelijking & $I = \int_a^bF(x,y(x),y'(x))dx$ \\
+& met Dirichlet randvoorwaarden \\
+& $y$ is oplossing van $\boxed{F_y -F_{y',x}-F_{y',y}y' - F_{y',y'}y''}$ \\ \hline
+
+
+	Dirichlet randvoorwaarden & $\begin{aligned} y(a) = \alpha \\ y(b) = \beta \end{aligned}$ \\ \hline \hline
+	
+	natuurlijke randvoorwaarden & $y(a) = \alpha$ \\
+	& eindpunt op lijn $x=b$ \\ \hline
+	
+	transversaliteitsvoorwaarden & $y(a)= \alpha$ \\
+	& eindpunt op kromme $\psi(t)$ \\ \hline
+	
+	nevenvoorwaarden & $L= \int_{a}^b \psi(x,y,y') dx$ \\ \hline \hline
+	\end{tabu}}
+\end{center}
+
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+\multicolumn{2}{|c|}{Toepassingen} \\ \hline
+
+korste weg & \\ \hline
+
+brachistochroon & $T = \int_0^a \sqrt{\frac{1+y'^2}{2gy}}dx$ \\ 
+	* Dirichlet & $\begin{aligned} y(0) = 0 \\ y(a)= b \end{aligned}$ \\
+	 * natuuurlijk & $\begin{aligned} y(0) = 0 \\ y'(a)= 0 \end{aligned}$ \\
+	 *transversaliteit &  $\begin{aligned} y(0) = 0 \\ y'(a) = - \frac{1}{m} \end{aligned} $ \\ \hline
+
+kettinglijn & \\ \hline
+
+	\end{tabu}}
+\end{center}
+
+
+
+\newpage
+Bij het opstellen van dit overzicht werd gebruik gemaakt van \cite{VandewalleStefan2017AIS}.
+
+\bibliography{bib}
+\bibliographystyle{plain}
+
+%\vspace*{\fill}
+%(gemaakt door Ignace Bossuyt)
+%\end{landscape}
+\end{document}

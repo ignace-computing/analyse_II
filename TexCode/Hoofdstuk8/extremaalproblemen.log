@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.20)  3 MAR 2019 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.20)  22 APR 2019 11:20
 entering extended mode
-**./overzicht.tex
-(overzicht.tex
+**./extremaalproblemen.tex
+(extremaalproblemen.tex
 LaTeX2e <2018-04-01> patch level 5
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\arti
@@ -263,8 +263,8 @@ geometry.cfg"))
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\
 lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) (overzicht.aux)
-\openout1 = `overzicht.aux'.
+) (extremaalproblemen.aux)
+\openout1 = `extremaalproblemen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -386,47 +386,46 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\
 umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\
 umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (overzicht.bbl) [1
+) [1
 
-{C:/Users/Ignace Bossuyt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (o
-verzicht.aux) ) 
+{C:/Users/Ignace Bossuyt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (e
+xtremaalproblemen.bbl) [2] (extremaalproblemen.aux) ) 
 Here is how much of TeX's memory you used:
- 3983 strings out of 492970
- 57445 string characters out of 3122595
- 132321 words of memory out of 3000000
- 7785 multiletter control sequences out of 15000+200000
+ 3985 strings out of 492970
+ 57556 string characters out of 3122595
+ 133313 words of memory out of 3000000
+ 7787 multiletter control sequences out of 15000+200000
  6290 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,21n,43p,278b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignace Bos
-suyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi5.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ignace Bossuyt/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Igna
-ce Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-5.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignace Bossuyt/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/
-Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmti10.pfb>
-Output written on overzicht.pdf (1 page, 112102 bytes).
+ 41i,18n,43p,287b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Ignace Bossuyt/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ignace B
+ossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignace Bossuyt/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Ign
+ace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmti10.pfb>
+Output written on extremaalproblemen.pdf (2 pages, 105837 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

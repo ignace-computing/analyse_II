@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.20)  3 MAR 2019 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.20)  22 APR 2019 11:07
 entering extended mode
-**./differentiaalvergelijkingen.tex
-(differentiaalvergelijkingen.tex
+**./reeksen_getallen.tex
+(reeksen_getallen.tex
 LaTeX2e <2018-04-01> patch level 5
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\arti
@@ -259,21 +259,25 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks26
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\
-geometry.cfg")) (differentiaalvergelijkingen.aux)
-\openout1 = `differentiaalvergelijkingen.aux'.
+geometry.cfg"))
+("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\
+lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (reeksen_getallen.aux)
+\openout1 = `reeksen_getallen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\su
 pp-pdf.mkii"
@@ -382,46 +386,57 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\
 umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 ("C:\Users\Ignace Bossuyt\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\
 umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (differentiaalvergelijkingen.bbl) [1
+)
+Overfull \hbox (34.38774pt too wide) in paragraph at lines 73--124
+ [] 
+ []
 
-{C:/Users/Ignace Bossuyt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (d
-ifferentiaalvergelijkingen.aux) ) 
+[1
+
+{C:/Users/Ignace Bossuyt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (30.46931pt too wide) in paragraph at lines 131--194
+ [] 
+ []
+
+(reeksen_getallen.bbl) [2] (reeksen_getallen.aux) ) 
 Here is how much of TeX's memory you used:
- 3975 strings out of 492970
- 57343 string characters out of 3122595
- 137154 words of memory out of 3000000
- 7780 multiletter control sequences out of 15000+200000
- 6895 words of font info for 27 fonts, out of 3000000 for 9000
+ 3999 strings out of 492970
+ 57618 string characters out of 3122595
+ 137313 words of memory out of 3000000
+ 7800 multiletter control sequences out of 15000+200000
+ 6598 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,43p,296b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Ignace Bossuyt/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ignace Bossuyt
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ignace Bossuyt/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignace 
-Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.p
-fb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignace Bossuyt/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ign
-ace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-ti10.pfb>
-Output written on differentiaalvergelijkingen.pdf (1 page, 115457 bytes).
+ 41i,16n,43p,285b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Ignace Bossuyt/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
+ers/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignace Bo
+ssuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignace Bossuyt/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ignac
+e Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb><C:/Users/Ignace Bossuyt/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Ignace Bossuyt/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on reeksen_getallen.pdf (2 pages, 130348 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

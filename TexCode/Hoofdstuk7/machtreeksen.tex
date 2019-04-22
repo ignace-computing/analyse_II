@@ -1,0 +1,91 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{colortbl}
+\usepackage{tabu}
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\geometry{margin=0.5in}
+\everymath{\displaystyle}
+\usepackage{lscape}
+
+
+\author{Ignace Bossuyt}
+\title{Handleiding differentiaalvergelijkingen}
+\begin{document}
+
+\section{Machtreeksen}
+\begin{center}
+\centering
+{\tabulinesep=1.5mm
+\begin{tabu}{|c|c|c|} 
+\hline
+reeks van getallen & reeks van functies & machtreeks \\ \hline
+$\sum_{n=0}^{\infty} a_n \xi^n$ & $\sum_{n=0}^{\infty} f_n(x)$ & $\sum_{n=0} ^{\infty} a_n (x-x_0)^n$ \\ \hline
+\end{tabu}}
+\end{center}
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+convergentiestraal & $R = \sup \left \{  |x-x_0| \left \lvert \sum_{n=0}^{\infty} a_n(x-x_0)^n \text{convergent} \right. \right \}$ \\ 
+	& $R= \frac{1}{\limsup_{n \to \infty} \sqrt[n]{|a_n|}}$ \\
+	& $R = \lim_{n \to \infty} \left \lvert \frac{a_n}{a_{n+1}} \right \rvert $ \\ \hline
+
+convergentie-interval & $(x_0-R, x_0+R)$ \\ \hline
+	\end{tabu}}
+\end{center}
+
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+Taylor veelterm & $f(x) = P_n(x) + R_n(x)$ \\ \hline
+$P_n(x) = \sum_{n=0}^{\infty}\frac{f^k(x_0)}{k!}(x-x_0)$ & $R_n(x) = \int_{x_0}^{x} \frac{(x-t)^n}{n!}f^{n+1} (t)dt$ \\ 
+	& $R_n(x) = f^{(n+1)} (\xi) \frac{(x-x0)^{n+1}}{(n+1)!}$ \\ \hline
+	
+functie analytisch in open interval $I$ & $lim_{n \to \infty} R_n(x)= 0$ \\ \hline
+	\end{tabu}}
+\end{center}
+
+\subsection{Oplossen van differentiaalvergelijkingen a.h.v. reeksontwikkeling}
+\begin{center}
+	\centering
+	{\tabulinesep=1.5mm
+		\begin{tabu}{|c|c|} 
+			\hline
+\multicolumn{2}{|c|}{$\begin{aligned} a_0(x) y''(x) + a_1(x)y'(x) + a_2(x)y(x) &= 0 \\ y(x_0) &= 0  \\ y'(x_0) &= y_1  \end{aligned}$} \\ \hline
+
+rond regulier punt & $\frac{a_1(x)}{a_0(x)}$ en $\frac{a_2(x)}{a_0(x)}$ zijn analytisch in $x_0$ \\ 
+	 oplossing & $y(k) = \sum_{k=0}^{\infty} C_k (x-x_0)^k$ \\
+	 & recursiebetrekking \\ \hline
+	
+rond regulier-singulier punt &  $q(x) = (x-x_0)\frac{a_1(x)}{a_0(x)}$ en $r(x) = (x-x_0)^2\frac{a_2(x)}{a_0(x)}$ zijn analytisch in $x_0$ \\
+	herschrijf differentiaalvergelijking & $(x-x)^2y''(x) + (x-x_0)q(x)y'(x) + r(x)y(x) = 0$ \\ 
+	(normaalvorm Frobenius ) & \\ 
+	oplossing & $y(x) = (x-x_0)^{\nu} \sum_{k=0}^{\infty} C_k (x-x0)^k$ \\
+	& recursiebetrekking \\ \hline
+
+speciaal geval: diff. verg. Bessel  & $x^2 y''(x) + xy'(x) + (x^2 - p^2)y(x) = 0$ \\ \hline
+
+	\end{tabu}}
+\end{center}
+
+
+Bij het opstellen van dit overzicht werd gebruik gemaakt van \cite{VandewalleStefan2017AIS}.
+
+\bibliography{bib}
+\bibliographystyle{plain}
+
+%\vspace*{\fill}
+%(gemaakt door Ignace Bossuyt)
+%\end{landscape}
+\end{document}
