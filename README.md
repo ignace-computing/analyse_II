@@ -6,4 +6,4 @@ De beschikbare PDF files zijn
 - H4_H5_Integralen
 - H6_reeksen_getallen
 - H7_machtreeksen
-- H7_extremaalproblemen
+- H8_extremaalproblemen
